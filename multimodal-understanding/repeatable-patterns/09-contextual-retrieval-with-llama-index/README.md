@@ -1,5 +1,7 @@
 # Contextual Retrieval with Llama-index
 
+In this tutorial, you will learn how to improve the context in your vector store using contextual retrieval with Amazon Bedrock and the Olympus family of models. We will be using Llama-index pipelines to orchestrate and automate the workflow execution.
+
 ## Deployment Guide
 
 ### Prerequisites
