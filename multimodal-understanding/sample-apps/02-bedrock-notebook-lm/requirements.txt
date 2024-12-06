@@ -81,7 +81,7 @@ s3transfer==0.10.2
 safetensors==0.4.5
 scipy==1.14.1
 semantic-version==2.10.0
-sentry-sdk==2.5.0
+sentry-sdk==2.8.0
 setuptools==75.1.0
 shellingham==1.5.4
 six==1.16.0
