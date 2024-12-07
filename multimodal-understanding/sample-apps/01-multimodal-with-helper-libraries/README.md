@@ -4,6 +4,14 @@ This folder contains a sample Streamlit application and Jupyter notebook demonst
 
 It provides some helper functions for video formatting under the `utils.py` file.
 
+To get started, you can create a Python virtual environment such as with:
+
+```
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
 To run the Streamlit application after installing everything in `requirements.txt`, run:
 ```
 streamlit run mm_understanding.py
