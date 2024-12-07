@@ -9,7 +9,8 @@ import time
 
 from datetime import datetime
 
-# columns are seconds, frammes to sample, sample rate fps and token count
+# columns are seconds, frames to sample, sample rate fps and token count
+# source: https://docs.aws.amazon.com/nova/latest/userguide/modalities-video.html#modalities-video-tokens
 seconds_samples_fps_tokens = np.array(
     [
         [10, 10, 1, 2304],
@@ -86,7 +87,7 @@ def get_video_info(video_bytes):
     os.makedirs("./tmp", exist_ok=True)
     with open("./tmp/temp.mp4", "wb") as outfile:
         outfile.write(video_bytes)
-    video = cv2.VideoCapture("/tmp/temp.mp4")
+    video = cv2.VideoCapture("./tmp/temp.mp4")
     fps = video.get(cv2.CAP_PROP_FPS)
     frame_count = video.get(cv2.CAP_PROP_FRAME_COUNT)
     duration = frame_count / fps

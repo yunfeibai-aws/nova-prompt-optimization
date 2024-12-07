@@ -22,7 +22,6 @@ system_prompt = "You are an expert video understanding chatbot. You will be show
 models = [
     "us.amazon.nova-lite-v1:0",
     "us.amazon.nova-pro-v1:0",
-    "us.meta.llama3-2-11b-instruct-v1:0",
     "us.anthropic.claude-3-haiku-20240307-v1:0",
 ]
 
@@ -31,7 +30,6 @@ video_input_models = ["us.amazon.nova-lite-v1:0", "us.amazon.nova-pro-v1:0"]
 image_input_models = [
     "us.amazon.nova-lite-v1:0",
     "us.amazon.nova-pro-v1:0",
-    "us.meta.llama3-2-11b-instruct-v1:0",
     "us.anthropic.claude-3-haiku-20240307-v1:0",
 ]
 
