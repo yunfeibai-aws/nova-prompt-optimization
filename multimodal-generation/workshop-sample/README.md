@@ -40,6 +40,6 @@ The workshop is divided into several hands-on labs, each focusing on a specific 
 ## Additional Resources
 
 - [Amazon Nova Foundation Models](https://aws.amazon.com/ai/generative-ai/nova/)
-- [mazon Nova User Guide](https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html)
+- [Amazon Nova User Guide](https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html)
 - [Nova Canvas & Reel Prompting Guides](https://docs.aws.amazon.com/nova/latest/userguide/prompting-creation.html)
 
