@@ -1,0 +1,13 @@
+{
+  "RequestId": "92ae5ce9-239f-4138-ab52-fac23d1ada76",
+  "HTTPStatusCode": 200,
+  "HTTPHeaders": {
+    "date": "Wed, 18 Dec 2024 17:53:40 GMT",
+    "content-type": "application/json",
+    "content-length": "1904871",
+    "connection": "keep-alive",
+    "x-amzn-requestid": "92ae5ce9-239f-4138-ab52-fac23d1ada76",
+    "x-amzn-bedrock-invocation-latency": "11611"
+  },
+  "RetryAttempts": 0
+}
