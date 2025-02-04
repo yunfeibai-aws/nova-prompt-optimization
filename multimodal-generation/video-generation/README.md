@@ -61,7 +61,11 @@ python entitlement.py us-east-1 amazon.nova-reel-v1:0
 If you are running the Python scripts outside of a Jupyter Notebook, you'll need to first install the required dependencies by running the following command from the `python` directory:
 
 ```bash
+cd notebook/
 pip install -r requirements.txt
+
+# Install libGL.so.1 needed for OpenCV (cv2)
+sudo apt install -y libgl1-mesa-glx
 ```
 
 You will then be able to run the scripts as follows:
