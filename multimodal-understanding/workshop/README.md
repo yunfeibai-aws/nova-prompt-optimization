@@ -23,9 +23,10 @@ In this workshop, we will explore the Nova family of multimodal models. There ar
 3. Wait a few seconds, then click **open** to access
 4. Clone this repo in your Sagemaker studio instance
 5. Open the **multimodal-understanding/workshop** to complete the workshop
-6. Please add the following permissions to the SageMaker execution role
+6. Please Copy the following CloudFormation template and save it into file called **sagemakerexecutionrole.yml**. In CloudFormation console,  create a stack using the saved CloudFormation template to create the SageMaker execution role
 
 ```
+Resources:
  SageMakerExecutionRole:
     Type: AWS::IAM::Role
     Properties:
@@ -62,7 +63,6 @@ In this workshop, we will explore the Nova family of multimodal models. There ar
                   - logs:*
                   - cloudwatch:*
                 Resource: '*'
-      Policies:
         - PolicyName: s3-access
           PolicyDocument:
             Version: 2012-10-17
@@ -286,6 +286,7 @@ In this workshop, we will explore the Nova family of multimodal models. There ar
                   - 'arn:aws:bedrock:*:*:inference-profile/us.amazon.*'
                   - 'arn:aws:bedrock:*:*:application-inference-profile/*'
 ``` 
+7. Validate the CloudFormation template was deployed succesfully by going to the Resources Tab in the cloudFormation console and take note of the role name 
 
 ## Workshop Structure
 
