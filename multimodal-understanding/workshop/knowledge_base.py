@@ -1,6 +1,3 @@
-# Copyright 2024 Amazon.com and its affiliates; all rights reserved.
-# This file is AWS Content and may not be duplicated or distributed without permission
-
 """
 This module contains a helper class for building and using Knowledge Bases for Amazon Bedrock.
 The KnowledgeBasesForAmazonBedrock class provides a convenient interface for working with Knowledge Bases.
@@ -31,8 +28,10 @@ from retrying import retry
 import random
 
 valid_embedding_models = [
-    "cohere.embed-multilingual-v3", "cohere.embed-english-v3", "amazon.titan-embed-text-v1",
-    "amazon.titan-embed-text-v2:0"
+    "cohere.embed-multilingual-v3",
+    "cohere.embed-english-v3",
+    "amazon.titan-embed-text-v1",
+    "amazon.titan-embed-text-v2:0",
 ]
 pp = pprint.PrettyPrinter(indent=2)
 
