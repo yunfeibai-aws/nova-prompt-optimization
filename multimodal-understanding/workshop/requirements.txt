@@ -4,3 +4,7 @@ opensearch-py
 retrying
 ipywidgets
 s3fs
+pickleshare
+retrying
+Pillow
+pandas
