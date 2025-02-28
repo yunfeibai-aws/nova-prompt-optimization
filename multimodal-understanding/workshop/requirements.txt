@@ -5,3 +5,6 @@ awscli
 retrying
 ipywidgets
 s3fs
+pickleshare
+retrying
+Pillow
